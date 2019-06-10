@@ -5,4 +5,5 @@ public class Constant {
     public static String API_KEY = "XXXXX";
     public static String VISITOR_NAME = "XXXXX";
     public static String VISITOR_EMAIL = "XXXXX";
+    public static String LANG = "XXXXX";
 }
