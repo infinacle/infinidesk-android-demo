@@ -32,7 +32,7 @@ Streamline your customer experience with scalable real-time chat. The app enable
 
    - Go to Under java --> com\infinacle\chat\sdk --> Constant
 
-   - Under class `Constant.class`, modify *API_KEY*, *VISITOR_NAME* and *VISITOR_EMAIL* with your own **ApiKey**, **VisitorName** and **VisitorEmail**
+   - Under class `Constant.class`, modify *API_KEY*, *VISITOR_NAME*, *VISITOR_EMAIL* and *LANG* with your own **ApiKey**, **VisitorName**, **VisitorEmail**, **Language**
 
         `public static String API_KEY = "XXXXXXXXX";`
         
@@ -40,6 +40,8 @@ Streamline your customer experience with scalable real-time chat. The app enable
         
         `public static String VISITOR_EMAIL = "XXXXXXXXX";`
 
+        `public static String LANG = "XXXXX";`
+        
 ## Note
 
    You can Obtain your  *API_KEY* from [Infinacle Chat Dashboard](https://infinacle.com/)
