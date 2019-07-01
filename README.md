@@ -26,13 +26,13 @@ Streamline your customer experience with scalable real-time chat. The app enable
    
 ## Run the Sample App
  
-   To Run the sample App you have to do the following changes by Adding **API_KEY**, **VISITOR_NAME** and **VISITOR_EMAIL**
+   To Run the sample App you have to do the following changes.
 
    - Open the Project in Android Mode in Android Studio
 
    - Go to Under java --> com\infinacle\chat\sdk --> Constant
 
-   - Under class `Constant.class`, modify *API_KEY*, *VISITOR_NAME*, *VISITOR_EMAIL* and *LANG* with your own **ApiKey**, **VisitorName**, **VisitorEmail**, **Language**
+   - Under class `Constant.class`, modify *API_KEY*, *VISITOR_NAME*, *VISITOR_EMAIL*, *LANG* and *ENVIRONMENT* with your own **ApiKey**, **VisitorName**, **VisitorEmail**, **Language**, **Environment**
 
         `public static String API_KEY = "XXXXXXXXX";`
         
@@ -41,6 +41,8 @@ Streamline your customer experience with scalable real-time chat. The app enable
         `public static String VISITOR_EMAIL = "XXXXXXXXX";`
 
         `public static String LANG = "XXXXX";`
+        
+        `public static String ENVIRONMENT = "XXXXX";`
         
 ## Note
 
