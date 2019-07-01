@@ -6,4 +6,5 @@ public class Constant {
     public static String VISITOR_NAME = "XXXXX";
     public static String VISITOR_EMAIL = "XXXXX";
     public static String LANG = "XXXXX";
+    public static String ENVIRONMENT = "XXXXX";
 }

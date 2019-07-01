@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
             infiniDesk.setName(Constant.VISITOR_NAME);
             infiniDesk.setEmail(Constant.VISITOR_EMAIL);
             infiniDesk.setLang(Constant.LANG);
+            infiniDesk.setEnv(Constant.ENVIRONMENT);
 
             intent = InfiniHelpDesk.getInstance().startChat(infiniDesk, activity);
             startActivityForResult(intent, 1);
